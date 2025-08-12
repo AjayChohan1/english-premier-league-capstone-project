@@ -21,6 +21,21 @@ This project uses two cleaned datasets:
 - Provide accessible analytics for both technical and non-technical users via an intuitive dashboard.
 
 ---
+## 📌 Project Overview
+This project applies Machine Learning techniques to predict English Premier League (EPL) match outcomes using historical match statistics. The analysis leverages Random Forest Classification and includes exploratory data analysis (EDA), feature importance ranking, and visual insights.
+The workflow also integrates data cleaning, feature engineering, model training, evaluation, and match outcome predictions.
+
+---
+# 📊 Key Visualizations
+- Match outcome distribution.
+- Feature importance ranking.
+- Confusion matrix heatmap.
+- Cumulative goals over the season.
+- Home vs. away performance trends.
+- xG Analysis & Clustering insights.
+
+---
+# Project Structure
 EPL
 │
 ├── data/
@@ -38,8 +53,6 @@ EPL
 ---
 
 ## 🧪 Hypotheses and Validation
-
-## **Hypotheses and Validation**
 
 - **Hypothesis 1: Home teams have a scoring and winning advantage.**  
 - *Validation:* The bar chart comparing total home vs away goals shows that home teams score significantly more goals. The match result distribution pie chart confirms a higher proportion of home wins, supporting the home advantage theory.
@@ -118,6 +131,18 @@ This structured approach helps confirm meaningful patterns while highlighting ar
 - No personal or sensitive data used; all sources are public domain.
 - Bias avoided through full-season data coverage and inclusive metric tracking.
 - Visualizations designed for fairness and clarity across clubs and roles.
+
+---
+# 🚀 Machine Learning Workflow
+- Import Libraries
+- Load Dataset
+- Select Features & Target
+- Preprocess & Encode
+- Split Data
+- Train Model
+- Evaluate Performance
+- Generate Visual Insights
+- Deploy Streamlit App
 
 ---
 
