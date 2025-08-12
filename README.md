@@ -1,8 +1,7 @@
 # English Premier League
 
 **English Premier League Project** The English Premier League (EPL) generates a wealth of information, from final scores to player performance metrics, creating a treasure trove for analysts, enthusiasts, and data scientists alike.
-
-This dataset comes from a personal data-cleaning and transformation project, where raw, unstructured match data is turned into an organized, analysis-ready format. With it, you can uncover season-long trends, build predictive models for match outcomes, or craft rich visualizations. Whether you’re a seasoned analyst or just starting out in data science, this dataset offers a solid foundation for exploring the EPL through a data-driven lens.
+This dataset comes from a data-cleaning and transformation project, where raw, unstructured match data is turned into an organized, analysis-ready format. With it, you can uncover season-long trends, build predictive models for match outcomes, or craft rich visualizations. Whether you’re a seasoned analyst or just starting out in data science, this dataset offers a solid foundation for exploring the EPL through a data-driven lens.
 
 ---
 
