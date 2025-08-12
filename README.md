@@ -1,6 +1,6 @@
 # English Premier League
 
-**English Premier League Project** The English Premier League (EPL) generates a wealth of information, from final scores to player performance metrics, creating a treasure trove for analysts, enthusiasts, and data scientists alike.
+**English Premier League Project**: generates a wealth of information, from final scores to player performance metrics, creating a treasure trove for analysts, enthusiasts, and data scientists alike.
 This dataset comes from a data-cleaning and transformation project, where raw, unstructured match data is turned into an organized, analysis-ready format. With it, you can uncover season-long trends, build predictive models for match outcomes, or craft rich visualizations. Whether you’re a seasoned analyst or just starting out in data science, this dataset offers a solid foundation for exploring the EPL through a data-driven lens.
 
 ---
@@ -19,6 +19,21 @@ This project uses two cleaned datasets:
 - Enable strategic insights into player and team performance.
 - Build interactive visualizations for scouting, fan engagement, or fantasy football strategy.
 - Provide accessible analytics for both technical and non-technical users via an intuitive dashboard.
+
+---
+EPL
+│
+├── data/
+│   ├── epl_cleaned.csv         # Preprocessed dataset
+│   ├── epl_final.csv           # raw dataset
+├── notebooks/
+│   ├── Epl_analysis.ipynb       # Jupyter notebook with full workflow
+│   ├── epl_visualisation.ipynb  # Additional analytics and visuals
+│
+├── ├── streamlit_app.py        # Streamlit dashboard
+│
+├── README.md                   # Project documentation
+└── requirements.txt            # Python dependencies
 
 ---
 
@@ -60,6 +75,13 @@ This structured approach helps confirm meaningful patterns while highlighting ar
 - **Methodologies**: Chosen for statistical rigor, clarity, and stakeholder relevance.
 
 ---
+📌 Project Board (Trello)
+- A Trello project board was used for task management and includes:
+- Data preparation tasks.
+- Model building steps.
+- Visual insights creation.
+- Final deployment plan.
+---
 
 ## 📐 Mapping Business Requirements to Visualizations
 
@@ -86,6 +108,8 @@ This structured approach helps confirm meaningful patterns while highlighting ar
 **AI Contributions**:
 - Assisted with exploratory ideation and code optimization.
 - Streamlined visualization designs with feedback from generative prompts.
+- Provide structured documentation and markdown formatting.
+- Assisted descriptive insights for analysis results.
 
 ---
 
@@ -151,17 +175,9 @@ The dashboard is built using Streamlit for rapid deployment and interactivity.
 ---
 
 ## 🚀 Deployment
-
-### Heroku
-
-Live App: [https://YOUR_APP_NAME.herokuapp.com/](https://YOUR_APP_NAME.herokuapp.com/)
-
-Deployment Steps:
-1. Log into Heroku and create an App.
-2. Link GitHub repository via Deploy tab.
-3. Select repository branch and deploy.
-4. Add `.slugignore` to exclude unused files.
-5. Ensure Python version compatibility via `runtime.txt`.
+- Streamlit
+- https://english-premier-league-capstone-project-4ymqtsk9qy2cgywumaua9f.streamlit.app/
+- To access the streamlit app click on the above link - click on settings(3 dots) - on the python version dropdown select version 3.12 to run the app
 
 ---
 
