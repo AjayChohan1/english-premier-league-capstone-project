@@ -1,8 +1,8 @@
 # English Premier League
 
-**English Premier League** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualization. The tool supports CSV-based structured data and is ideal for analysts and enthusiasts seeking insights into player performance, match stats, and seasonal trends.
+**English Premier League Project** The English Premier League (EPL) generates a wealth of information, from final scores to player performance metrics, creating a treasure trove for analysts, enthusiasts, and data scientists alike.
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This dataset comes from a personal data-cleaning and transformation project, where raw, unstructured match data is turned into an organized, analysis-ready format. With it, you can uncover season-long trends, build predictive models for match outcomes, or craft rich visualizations. Whether you’re a seasoned analyst or just starting out in data science, this dataset offers a solid foundation for exploring the EPL through a data-driven lens.
 
 ---
 
@@ -183,7 +183,7 @@ Deployment Steps:
 ## 📝 Credits
 
 ### Content
-
+- Dataset sourced from the kaggle site - https://www.kaggle.com/datasets/marcohuiii/english-premier-league-epl-match-data-2000-2025/data
 - Tactical framework inspired by The Coaches' Voice.
 - Radar chart formatting adapted from [Python Graph Gallery](https://www.python-graph-gallery.com).
 - Regex solutions sourced from Stack Overflow contributors.
