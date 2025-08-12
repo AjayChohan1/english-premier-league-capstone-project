@@ -25,14 +25,32 @@ This project uses two cleaned datasets:
 
 ## 🧪 Hypotheses and Validation
 
-1. **Teams with higher pressing metrics concede fewer goals.**  
-   _Validation_: Correlation analysis and regression modeling.
+## **Hypotheses and Validation**
 
-2. **Players with high pass completion and chances created drive team wins.**  
-   _Validation_: Aggregated player contributions vs. match outcomes.
+- **Hypothesis 1: Home teams have a scoring and winning advantage.**  
+- *Validation:* The bar chart comparing total home vs away goals shows that home teams score significantly more goals. The match result distribution pie chart confirms a higher proportion of home wins, supporting the home advantage theory.
 
-3. **Early-season transfers yield higher ROI than winter signings.**  
-   _Validation_: Compare pre- and post-transfer performance metrics.
+- **Hypothesis 2: Most matches have a moderate number of goals (2-3 goals).**  
+*Validation:* The histogram of total goals per match reveals a peak around 2 to 3 goals per game, consistent with typical football scoring patterns.
+
+- **Hypothesis 3: Goal-scoring rates vary across the season.**  
+*Validation:* The monthly average goals line plot shows fluctuations, including a dip in winter months, confirming seasonal effects on scoring.
+
+- **Hypothesis 4: Top scoring teams dominate both home and away matches.**  
+*Validation:* The top 10 scoring teams bar chart aggregates goals from both home and away fixtures, identifying consistent high scorers.
+
+- **Hypothesis 5: Teams have distinct tactical profiles based on scoring patterns.**  
+*Validation:* The clustering analysis groups teams into high-scoring, defensive, and balanced clusters, confirming varied playing styles.
+
+- **Hypothesis 6: Expected goals (xG) correlate closely with actual goals scored.**  
+*Validation:* The scatter plot comparing synthetic xG and actual goals demonstrates a positive correlation, though some teams deviate, indicating over- or under-performance.
+
+- **Hypothesis 7: Teams accumulate points steadily over a season with momentum fluctuations.**  
+*Validation:* The cumulative points timeline for selected teams shows periods of rapid point accumulation and plateaus, reflecting form swings.
+
+---
+
+This structured approach helps confirm meaningful patterns while highlighting areas needing deeper analysis or data refinement.
 
 ---
 
@@ -48,7 +66,7 @@ This project uses two cleaned datasets:
 
 | Business Requirement | Visualization           | Rationale                                        |
 |----------------------|--------------------------|--------------------------------------------------|
-| Player effectiveness | Radar charts, bar plots  | Highlight multidimensional performance metrics   |
+| Team effectiveness   | Radar charts, bar plots  | Highlight multidimensional performance metrics   |
 | Team progression     | Line graphs, heatmaps    | Show seasonal trends and match flow              |
 | Tactical insights    | Pie charts, stacked bars | Simplify complex tactical analysis               |
 
@@ -59,7 +77,7 @@ This project uses two cleaned datasets:
 - **Descriptive Statistics** – Summarize key metrics like goals, assists, and tackles.
 - **Trend Analysis** – Monitor progression over matchweeks and seasons.
 - **Regression Modeling** – Validate predictive hypotheses.
-- **Clustering** – Group similar player profiles or team styles.
+- **Clustering** – Group similar team profiles or team styles.
 
 **Limitations & Workarounds**:
 - Handled missing data via imputation.
@@ -83,8 +101,20 @@ This project uses two cleaned datasets:
 ## 🧩 Dashboard Design
 
 ### Features:
-- Interactive filters (season, club, player role)
-- Sliders for player comparisons
+- ## 🖥️ Streamlit Integration
+
+The dashboard is built using Streamlit for rapid deployment and interactivity.
+
+### Key Streamlit Features:
+- `st.slider` for dynamic player comparisons
+- `st.selectbox` for filtering by club or season
+- `st.plotly_chart` for interactive visuals
+
+**User Experience Enhancements**:
+- Responsive layout for desktop and mobile
+- Tooltip integration for stat explanations
+- Interactive filters (season, club role)
+- Sliders for team comparisons
 - Insight pop-ups and performance cards
 
 ### Communication Strategy:
